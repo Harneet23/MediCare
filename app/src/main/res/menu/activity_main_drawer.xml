@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/TakeMedicine"
+            android:icon="@drawable/care"
+            android:title="Take Medicine" />
+        <item
+            android:id="@+id/BuyMedicine"
+            android:icon="@drawable/buy"
+            android:title="Buy Medicine" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/settings"
+                android:icon="@drawable/settings"
+                android:title="Settings" />
+            <item
+                android:id="@+id/Aboutus"
+                android:icon="@drawable/aboutus"
+                android:title="About Us" />
+            <item
+                android:id="@+id/feedback"
+                android:icon="@drawable/feedback2"
+                android:title="Feedback" />
+        </menu>
+    </item>
+
+</menu>
